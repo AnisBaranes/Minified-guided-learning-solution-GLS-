@@ -95,11 +95,11 @@ function createTooltip() {
          $('div.tooltip').remove();
     });
 	
-	let selector = document.querySelector(steps[index].selector);	
-	var d = document.getElementById('tooltipid')
-    d.style.position = "absolute";
-    d.style.left = selector.getBoundingClientRect().left + window.scrollX + steps[index].cLeft + 'px';
-    d.style.top = selector.getBoundingClientRect().top + window.scrollY + steps[index].cTop + 'px';
+    var selector = document.querySelector(steps[index].selector);	
+    var docPos = document.getElementById('tooltipid')
+    docPos.style.position = "absolute";
+    docPos.style.left = selector.getBoundingClientRect().left + window.scrollX + steps[index].cLeft + 'px';
+    docPos.style.top = selector.getBoundingClientRect().top + window.scrollY + steps[index].cTop + 'px';
 	
 }
 
@@ -121,7 +121,7 @@ function loadJquery() {
     script.src = 'https://code.jquery.com/jquery-3.4.1.min.js';
     script.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(script);
-	loadJquery();
+    loadJquery();
 
     window.onload = function() {
 
