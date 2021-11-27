@@ -8,8 +8,7 @@ I implemented player.js  - so that upon loading google.com in a browser the samp
 The script I wrote can be injected into google using DevTools. 
 
 The Guide URL I used look like this:
-
-![data image](data.PNG)
+![data](https://user-images.githubusercontent.com/34624638/143691178-5eb80571-e3aa-4736-8f22-db065ca92e93.PNG)
 
 The given url im my code returns a JSON tag delivers data directly to a first-party page in JSON format.
 We can see that the data contains an array of 5 elements. 
@@ -20,8 +19,7 @@ I recommend using this site to see the information returned in a more structured
 and if you want to test the code and view the result in front of you than this site can deliver it [jsfiddle](https://jsfiddle.net/).
 
 ***Chrome extension***
-
-![chrome image](chrome.PNG)
+![chrome](https://user-images.githubusercontent.com/34624638/143691171-ebbbfb01-0b16-4151-a5b4-039701deb995.PNG)
 
 As you can see in the picture, to add the code as an extension go to the 3 dots -> More tools -> Extensions -> keep to 'Developer mode' on -> Load unpacked ->
 load the folder of the code. The folder should contain the Javascript code and Manifest.json (JSON file that tells the browser about your Progressive Web App and how it should behave when installed on the user's desktop or mobile device).
