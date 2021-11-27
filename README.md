@@ -15,3 +15,5 @@ The given url im my code return JSON tag delivers data directly to a first-party
 We can see that that data contains an array of 5 elements. 
 The first element array for example contains the 'contents' which I used its contents for presentation in the tooltip.  
 Moreover, I coult use 'selector' to "find" (or select) the HTML elements I want to style. 
+
+I recommend using this site to see the information returned in a more structured way [jsonformatter](https://jsonformatter.org/json-pretty-print).
