@@ -7,5 +7,11 @@ I build a guided learning frontend engine written in javascript. Player that wil
 I implemented player.js  - so that upon loading google.com in a browser the sample guide will run and display tooltip on the screen.
 The script I wrote can be injected into google using DevTools. 
 
-
 The Guide URL I used look like this:
+
+![data image](data.PNG)
+
+The given url im my code return JSON tag delivers data directly to a first-party page in JSON format.
+We can see that that data contains an array of 5 elements. 
+The first element array for example contains the 'contents' which I used its contents for presentation in the tooltip.  
+Moreover, I coult use 'selector' to "find" (or select) the HTML elements I want to style. 
