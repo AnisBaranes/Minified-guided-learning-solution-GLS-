@@ -5,7 +5,7 @@ const horizontal = [0, 0, 250, 128];
 const vertical = [-150, 20, 340, 60];
 
 function createTooltip() {
-	var content = steps[index].action.contents['#content'];
+    var content = steps[index].action.contents['#content'];
     
     $('<div id="tooltipid" class="tooltip"><button class="closeButton">x</button><br>' + content + '\n</div>')
         .appendTo('body');
@@ -75,10 +75,10 @@ function createTooltip() {
     });
     
     var selector = document.querySelector(steps[index].selector);	
-	var d = document.getElementById('tooltipid')
-    d.style.position = "absolute";
-    d.style.left = selector.getBoundingClientRect().left + window.scrollX + horizontal[index] + 'px';
-    d.style.top = selector.getBoundingClientRect().top + window.scrollY + vertical[index] + 'px';
+    var docPos = document.getElementById('tooltipid')
+    docPos.style.position = "absolute";
+    docPos.style.left = selector.getBoundingClientRect().left + window.scrollX + horizontal[index] + 'px';
+    docPos.style.top = selector.getBoundingClientRect().top + window.scrollY + vertical[index] + 'px';
 }
 
 
