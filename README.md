@@ -25,3 +25,7 @@ and if you want to test the code and view the result in front of you than this s
 
 As you can see in the picture, to add the code as an extension go to the 3 dots -> More tools -> Extensions -> keep to 'Developer mode' on -> Load unpacked ->
 load the folder of the code. The folder should contain the Javascript code and Manifest.json (JSON file that tells the browser about your Progressive Web App and how it should behave when installed on the user's desktop or mobile device).
+
+https://user-images.githubusercontent.com/34624638/143691084-13d38415-4920-4ceb-b078-fc5223e2e0d3.mp4
+
+
