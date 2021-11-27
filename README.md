@@ -29,3 +29,7 @@ load the folder of the code. The folder should contain the Javascript code and M
 https://user-images.githubusercontent.com/34624638/143691084-13d38415-4920-4ceb-b078-fc5223e2e0d3.mp4
 
 
+***Note***
+
+There are 2 JavaScript files that I wrote. One using local array of objects that simulates the data returned from the URL and the other JS file with ajax to get the data from the JSONP endpoint. 
+The reason I wrote both of them is beacause I could not use the 'selectors' given in JSON because they do not exist in Google's HTML so I changed their value in my array of 'steps'. 
