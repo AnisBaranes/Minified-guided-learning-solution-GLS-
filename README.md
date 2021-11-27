@@ -17,6 +17,11 @@ The first element array for example contains 'contents' which I used its content
 Moreover, I could use 'selector' to "find" (or select) the HTML elements I want to style. 
 
 I recommend using this site to see the information returned in a more structured way [jsonformatter](https://jsonformatter.org/json-pretty-print)
-and if you want to test your code and view the result in front of you than this site can deliver it [jsfiddle](https://jsfiddle.net/).
+and if you want to test the code and view the result in front of you than this site can deliver it [jsfiddle](https://jsfiddle.net/).
 
 ***Chrome extension***
+
+![chrome image](chrome.PNG)
+
+As you can see in the picture, to add the code as an extension go to the 3 dots -> More tools -> Extensions -> keep to 'Developer mode' on -> Load unpacked ->
+load the folder of the code. The folder should contain the Javascript code and Manifest.json (JSON file that tells the browser about your Progressive Web App and how it should behave when installed on the user's desktop or mobile device).
